@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Takengon</title>
+    <link rel="stylesheet" href="style2.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <script type="text/javascript" src="./java.js"></script>
+</head>
+
+<body onload="main()">
+    <header class="header-nav">
+        <div class="jumbotron">
+            <h1>Takengon</h1>
+            <p>
+                Takengon merupakan ibu kota Kabupaten Aceh Tengah, Provinsi Aceh,
+                Indonesia
+            </p>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#Sejarah">Sejarah</a></li>
+                <li><a href="#Kopi">Kopi</a></li>
+                <li><a href="#Wisata">Wisata</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div id="content">
+            <article class="kotak" id="#Sejarah">
+                <h2 id="Sejarah">Sejarah</h2>
+                <img src="assets2\Image\Sejarah.jpg" alt="Sejarah" class="featured-image" />
+                <p>
+                    Takengon berasal dari bahasa aceh "Tikungan" yang arti nya kelokan
+                    karena untuk menuju ke kota kecil ini harus melewati tanjakan
+                    perbukitan dan menelusuri lereng lereng gunung dengan jalan berkelok
+                    kelok yang terjal dan curam penuh pepohonan lebat sepanjang jalan,
+                    untuk menuju ke ibu kota kabupaten Aceh Tengah ini bisa melalui
+                    jalan Lintas Timur Sumatra ex Jl KKA Aceh Utara atau melalui
+                    kabupaten Bireuen dan harus melewati 2 gunung aktif di kabupaten
+                    Bener Meriah.
+                </p>
+            </article>
+
+            <article class="kotak" id="Kopi">
+                <h2 id="Kopi">Kopi</h2>
+                <img src="assets2\Image\Kopi.jpg" alt="Kopi" class="featured-image" />
+                <p>
+                    Kopi Arabika (Coffea arabica) merupakan salah satu tanaman
+                    perkebunan yang menjadi produk ekspor unggulan di Indonesia. Secara
+                    spesifik, kemudian komoditi perkebunan ini menjadi komoditi utama
+                    dan unggulan di dua kabupaten yang berada di Dataran Tinggi Gayo
+                    yaitu Kabupaten Aceh Tengah dan Bener Meriah. Luas areal pertanaman
+                    kopi arabika di kedua daerah ini mencapai lebih dari 100.000 hektar,
+                    dengan produksi per tahun mencapai lebih dari 200.000 ton.
+                </p>
+            </article>
+
+            <article class="kotak" id="Wisata">
+                <h2 id="Wisata">Wisata</h2>
+                <img src="assets2\Image\Wisata.jpg" alt="Wisata" class="featured-image" />
+                <p>
+                    Takengon adalah ibukota daripada kabupaten Aceh Tengah. Takengon ini
+                    berada di daerah dataran tinggi sehingga memiliki banyak destinasi
+                    wisata perbukitan. Tentu, daerah ini berbeda dengan kota-kota lain
+                    di aceh yang cenderung didominasi wilayah pantai. Selain itu,
+                    penduduk di Takengon juga amat beragam, ada suku aceh yang merupakan
+                    suku mayoritas, ada suku jawa, minangkabau dan juga suku Tionghoa.
+                </p>
+                <section>
+                    <h3>Pantan Terong</h3>
+                    <img src="assets2\Image\Pantan Terong.jpg" alt="Pantan Terong" class="featured-image" />
+                    <p>
+                        Di puncak Pantan Terong ini, hamparan Kota Takengon dengan rumah
+                        dan bangunannya terlihat jelas. Jika tak berkabut, maka
+                        pemandangan terlihat sungguh jelas. Namun, saat berkabut, maka
+                        samar-samar terlihat rumah menyembul dibalik kabut dan awan.
+                        Paling menarik, hamparan Danau Laut Tawar membiru terlihat
+                        sempurna. Mirip mangkung mengelilingi kota dataran tinggi itu.
+                        Pantan Terong terbagi dua, bagian atas dan bawah. Di bagian atas
+                        terdapat kafe yang menyajikan kopi arabika dan robusta. “Lokasi
+                        ini kerja sama antara pribadi dengan pemerintah. Lahannya masih
+                        milik pribadi, pemerintah turut membangun, jadi kerja sama. Ada
+                        juga setoran pendapatan asli daerah dari lokasi ini,” kata Al
+                        Ikhlas. Dalam sehari, rata-rata pengunjung sekitar 300 orang. Jika
+                        akhir pekan bisa mencapai 500 orang.
+                    </p>
+                </section>
+            </article>
+        </div>
+
+        <aside>
+
+            <div class="slide">
+                <h2>Wisata Lainnya</h2>
+                <div class="slidercontainer">
+                    <div class="showSlide fade">
+                        <img src="./assets2/Image/1.jpg" />
+                    </div>
+                    <div class="showSlide fade">
+                        <img src="./assets2/Image/2.jpg" />
+                    </div>
+
+                    <div class="showSlide fade">
+                        <img src="./assets2/Image/3.jpg" />
+                    </div>
+                    <div class="showSlide fade">
+                        <img src="./assets2/Image/4.jpg" />
+                    </div>
+                    <!-- Navigation arrows -->
+                    <a class="left" onclick="nextSlide(-1)">❮</a>
+                    <a class="right" onclick="nextSlide(1)">❯</a>
+                </div>
+            </div>
+
+            <article class="biodata">
+                <header class="header-nav" style="text-align: center;">
+                    <figure>
+                        <img src="assets2\Image\profile.jpg" />
+                    </figure>
+                </header>
+
+                <section>
+                    <h2 id="testBio"></h2>
+                    <table style="color: white;">
+                        <tr>
+                            <th>Nama</th>
+                            <td>: Bayudi Nofanda Hasibuan</td>
+                        </tr>
+                        <tr>
+                            <th>Alamat</th>
+                            <td>: Aceh Tengah</td>
+                        </tr>
+                        <tr>
+                            <th>Pekerjaan</th>
+                            <td>: Freelance</td>
+                        </tr>
+                        <tr>
+                            <th>Telepon</th>
+                            <td>: +62 822 xxxx xxxx</td>
+                        </tr>
+                    </table>
+                </section>
+
+            </article>
+        </aside>
+    </main>
+
+    <footer>
+        <p>Belajar Dasar Pemrograman web &#169; 2020, Bayudi Nofanda Hasibuan.</p>
+    </footer>
+</body>
+
+</html>

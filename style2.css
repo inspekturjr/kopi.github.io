@@ -1,0 +1,237 @@
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Tammudu+2:wght@500&display=swap");
+
+body {
+  font-family: "Baloo Tammudu 2", cursive;
+  margin: 0;
+  padding: 0;
+  background-color: #c87941;
+}
+.header-nav {
+  display: inline !important;
+}
+
+figure {
+  padding-top: 20px;
+}
+
+.jumbotron {
+  font-size: 20px;
+  padding: 60px;
+  background-color: #290001;
+  text-align: center;
+  color: white;
+}
+
+nav li {
+  display: inline;
+  list-style-type: none;
+  margin-right: 20px;
+}
+
+nav {
+  background-color: #87431d;
+  padding: 2px;
+  position: sticky;
+  top: 0;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+nav a:hover {
+  font-weight: bold;
+}
+
+nav a {
+  color: white;
+  font-size: 20px;
+  font-weight: 500px;
+  text-decoration: none;
+}
+
+nav li {
+  position: sticky;
+}
+
+.kotak {
+  box-shadow: 0 1px 8px 0 rgba(0, 0, 0, 0.8);
+  border-radius: 10px;
+  padding: 20px;
+  margin-top: 20px;
+  background-color: #87431d;
+}
+
+h2,
+h3 {
+  color: white;
+}
+
+main {
+  padding: 20px;
+  overflow: auto;
+}
+
+main p {
+  color: white;
+}
+
+.featured-image {
+  width: 100%;
+  max-height: 700px;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 10px;
+}
+
+#content {
+  float: left;
+  width: 75%;
+}
+
+aside {
+  float: right;
+  width: 25%;
+  padding-left: 20px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.biodata img {
+  width: 200px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.8);
+}
+
+.biodata {
+  border-radius: 7px;
+  background-color: #87431d;
+  object-position: center;
+  box-shadow: 0 1px 8px 0 rgba(0, 0, 0, 0.8);
+}
+
+footer {
+  padding: 20px;
+  color: white;
+  background-color: #87431d;
+  text-align: center;
+  font-weight: bold;
+}
+
+@media screen and (max-width: 1000px) {
+  #content,
+  aside {
+    width: 100%;
+    padding: 0;
+  }
+}
+
+th {
+  text-align: left;
+}
+
+tr {
+  text-align: justify;
+}
+
+#testBio {
+  text-align: center;
+}
+
+table {
+  padding-left: 20px;
+}
+
+/* Slider */
+
+.showSlide {
+  display: none;
+}
+.showSlide img {
+  width: 100%;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.slidercontainer {
+  max-width: 1000px;
+
+  margin: auto;
+}
+
+.left {
+  padding-right: 20%;
+  padding-left: 25%;
+}
+
+.right {
+  padding-right: 20%;
+  padding-left: 25%;
+}
+
+.slide {
+  border-radius: 8px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.8);
+  background-color: #87431d;
+}
+
+.slide h2 {
+  text-align: center;
+}
+
+.left,
+.right {
+  cursor: pointer;
+  top: 75%;
+  width: auto;
+  object-position: center;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+}
+.right {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+.left:hover,
+.right:hover {
+  background-color: rgba(115, 115, 115, 0.8);
+}
+.content {
+  color: #eff5d4;
+  font-size: 30px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 10px;
+  width: 100%;
+  text-align: center;
+}
+.active {
+  background-color: #717171;
+}
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+@-webkit-keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
